@@ -12,10 +12,8 @@ public class MassTestAddArr {
     private int[] arr;
     Arr arr1;
 
-
     public MassTestAddArr(int[] arr) {
         this.arr = arr;
-
     }
 
     @Parameterized.Parameters
@@ -36,5 +34,4 @@ public class MassTestAddArr {
     public void testAdd() {
         Assert.assertTrue(Arr.arr2(arr));
     }
-
 }
